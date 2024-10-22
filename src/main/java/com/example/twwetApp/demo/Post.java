@@ -53,7 +53,7 @@ public class Post {
     }
 
     public int getUserId() {
-        return user != null ? user.getId() : 0;
+        return user != null ? user.getId() : null;
     }
 
     public User getUser() {

@@ -44,7 +44,7 @@ public class Comment {
     }
 
     public int getPostId() {
-        return post != null ? post.getId() : 0;
+        return post != null ? post.getId() : null;
     }
 
     public Post getPost() {
