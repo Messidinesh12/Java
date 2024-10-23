@@ -1,8 +1,11 @@
-package com.example.twwetApp.demo;
+package com.example.twwetApp.demo.comment;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.example.twwetApp.demo.post.Post;
+import com.example.twwetApp.demo.post.PostRepository;
 
 import jakarta.persistence.EntityNotFoundException;
 

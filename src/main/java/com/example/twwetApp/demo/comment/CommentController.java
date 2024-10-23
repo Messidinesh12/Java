@@ -1,4 +1,4 @@
-package com.example.twwetApp.demo;
+package com.example.twwetApp.demo.comment;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;

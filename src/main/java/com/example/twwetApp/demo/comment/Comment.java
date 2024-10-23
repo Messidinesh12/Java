@@ -1,5 +1,6 @@
-package com.example.twwetApp.demo;
+package com.example.twwetApp.demo.comment;
 
+import com.example.twwetApp.demo.post.Post;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
 // import jakarta.persistence.Column;

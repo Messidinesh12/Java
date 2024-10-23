@@ -1,4 +1,4 @@
-package com.example.twwetApp.demo;
+package com.example.twwetApp.demo.comment;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
