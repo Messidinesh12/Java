@@ -3,7 +3,7 @@ package com.example.twwetApp.demo.users;
 // import java.util.List;
 import java.util.Set;
 
-import com.example.twwetApp.demo.Post;
+import com.example.twwetApp.demo.post.Post;
 // import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
