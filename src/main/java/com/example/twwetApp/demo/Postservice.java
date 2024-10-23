@@ -5,6 +5,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.example.twwetApp.demo.users.User;
+import com.example.twwetApp.demo.users.UserRepository;
+
 import jakarta.persistence.EntityNotFoundException;
 
 @Service

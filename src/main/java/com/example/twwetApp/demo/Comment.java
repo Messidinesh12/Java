@@ -43,9 +43,9 @@ public class Comment {
         this.content = content;
     }
 
-    public int getPostId() {
-        return post != null ? post.getId() : null;
-    }
+    // public int getPostId() {
+    // return post != null ? post.getId() : null;
+    // }
 
     public Post getPost() {
         return post;

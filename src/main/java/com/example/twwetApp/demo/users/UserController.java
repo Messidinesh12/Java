@@ -1,4 +1,4 @@
-package com.example.twwetApp.demo;
+package com.example.twwetApp.demo.users;
 
 import java.util.List;
 

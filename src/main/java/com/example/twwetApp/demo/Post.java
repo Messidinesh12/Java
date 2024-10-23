@@ -3,6 +3,7 @@ package com.example.twwetApp.demo;
 // import java.util.List;
 import java.util.Set;
 
+import com.example.twwetApp.demo.users.User;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

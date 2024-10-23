@@ -1,4 +1,4 @@
-package com.example.twwetApp.demo;
+package com.example.twwetApp.demo.users;
 
 import java.util.List;
 
@@ -13,6 +13,7 @@ public class UserService {
     private UserRepository userRepository;
 
     public User createuser(User user) {
+
         return userRepository.save((user));
     }
 

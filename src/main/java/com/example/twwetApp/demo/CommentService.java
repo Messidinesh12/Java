@@ -18,6 +18,7 @@ public class CommentService {
         Post post = postRepository.findById(postId)
                 .orElseThrow(() -> new RuntimeException("Post not found"));
         comment.setPost(post);
+        // comment.setPost(post);
         return commentrepository.save((comment));
     }
 
