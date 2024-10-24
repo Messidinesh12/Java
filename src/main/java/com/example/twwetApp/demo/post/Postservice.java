@@ -22,6 +22,7 @@ public class Postservice {
     public Post createPost(int userId, Post post) {
         User user = userRepository.findById(userId).orElseThrow(() -> new RuntimeException("user not found"));
         post.setUser(user);
+
         return postRepository.save((post));
     }
 
